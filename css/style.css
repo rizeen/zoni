@@ -1,0 +1,165 @@
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+h4, a, button.nav-link, nav a.nav-link, i.menu-link {
+	color: #004A93;
+}
+button.nav-link {
+	border: 1px solid #004A93;
+	background-color: transparent;
+}
+.ratings span.small, .your-interests-sec p.grayish {
+	color: #1B1B1B;
+    opacity: 60%;
+}
+.img-logo {
+	width: 200px;
+}
+.btn {
+	font-size: 12px;
+	font-weight: 700;
+}
+.btn-yellow {
+	background-color: #FFD700;
+	color: #004A93;
+	filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.25));
+}
+.btn-yellow:hover {
+	background-color: #FFD700;
+	color: #004A93;
+	filter: brightness(105%);
+}
+.btn-navy {
+	background-color: #004A93;
+	color: #FFFFFF;
+}
+.btn-navy:hover {
+	background-color: #0a58ca;
+	color: #FFFFFF;
+	opacity: 90%;
+}
+i.bi-info-circle-fill, i.bi-cart-plus-fill {
+	margin-left: 5px;
+}
+
+.topsec1-collage {
+	background-image: linear-gradient(90deg, rgba(2, 106, 207, 0.85), rgba(0, 0, 0, 0)), url('../images/collage-sec1-mobil.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	h1 {
+		font-size: 48px;
+	}
+}
+
+.top-courses-sec {
+	a.small {
+		font-size: 12px;
+	}
+}
+
+.btn-navy {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.trending-courses-sec .overlay-text {
+	background-color: rgba(0,82,155,.5);
+	color: #FFFFFF;
+	height: 110px;
+	bottom: 45px;
+	width: calc(100% - 3rem);
+}
+
+.contact-sec {
+	.content-sec {
+		color: #004A93;
+		background-color: #F0F7FF;
+
+		h3 {
+			font-size: 30px;
+		}
+		h2 {
+			font-size: 35px;
+			text-underline-offset: 4px;
+			text-decoration-thickness: 2px !important;
+		}
+		button {
+			font-size: 25px;
+		}
+	}
+}
+
+.top-courses-row {
+	overflow: auto;
+	white-space: nowrap;
+	.w-25 {
+		min-width: 205px;
+	}
+}
+
+
+@media only screen and (min-width: 576px) {
+	.contact-sec .content-sec {
+		border-top-left-radius: 100px;
+		button {
+			border-radius: 21px !important;
+		}
+	}
+
+	.topsec1-collage {
+		background-image: linear-gradient(90deg, rgba(2, 106, 207, 0.85), rgba(0, 0, 0, 0)), url('../images/collage-sec1.png');
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.topsec1-collage {
+		max-height: 350px;
+		h1 {
+			font-size: 23px;
+		}
+	}
+		.contact-sec .content-sec {
+		h3, h2 {
+			font-size: 17px;
+		}
+		button {
+			font-size: 12px;
+		}
+		.not-bold {
+			font-size: 12px;
+		}
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.contact-sec {
+		.img-contact {
+			width: 60% !important;
+			position: relative;
+			bottom: -75px;
+		}
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 576px) {
+	.contact-sec {
+		.img-contact {
+			width: 100% !important;
+			position: static;
+		}
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.topsec1-collage {
+		padding-top: 0;
+		.py-5 {
+			padding-top: 0 !important;
+		}
+	}
+	.container-fluid:not(.contact-sec) {
+		padding: 1rem !important;
+	}
+}
