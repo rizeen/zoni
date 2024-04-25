@@ -1,4 +1,4 @@
-# rizeen.github.io
+# zoni.github.io
 
 # Rizeen-Zoni Educational Platform : Front-End Development Challenge : Implementing Figma Design with Bootstrap 5.2.3
 
